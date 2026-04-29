@@ -1,0 +1,36 @@
+[
+  {
+    "run_id": "4a7e656a-916f-4ce5-b09d-78c5e0207fbb",
+    "idea_name": "learning_rate_schedule",
+    "checker": "ai_scientist_v1",
+    "is_novel": false,
+    "rationale": "Captured from AI-Scientist v1 ideas.json. Patch v1 logging to capture queries.",
+    "raw": {
+      "Name": "learning_rate_schedule",
+      "Title": "Adaptive Learning Rate Schedules: Comparing different learning rate schedules for diffusion models.",
+      "Experiment": "In this experiment, we compare the performance of different learning rate schedules on diffusion model performance. We use the final estimated KL as the evaluation metric.",
+      "Interestingness": 4,
+      "Feasibility": 10,
+      "Novelty": 3,
+      "novel": false
+    },
+    "created_at": "2026-04-28T03:29:53.992626+00:00"
+  },
+  {
+    "run_id": "4a7e656a-916f-4ce5-b09d-78c5e0207fbb",
+    "idea_name": "unsupervised_mode_conditioning",
+    "checker": "ai_scientist_v1",
+    "is_novel": false,
+    "rationale": "Captured from AI-Scientist v1 ideas.json. Patch v1 logging to capture queries.",
+    "raw": {
+      "Name": "unsupervised_mode_conditioning",
+      "Title": "Unsupervised Cluster-Conditional Diffusion for Controllable 2D Generation",
+      "Experiment": "Assign each training point a pseudo-label using a simple unsupervised clustering method on the 2D coordinates (start with K-means and a fixed small number of clusters such as K=4). Modify MLPDenoiser to take an additional learned embedding for the cluster ID, concatenated with the existing input and time embeddings. Train two variants: (1) standard conditional diffusion using the cluster label, and (2) the same model with conditional dropout so it supports classifier-free guidance at sampling time. Generate samples for each cluster condition and, for the guided model, vary the guidance scale. Evaluate (a) overall KL divergence to the full dataset, (b) condition fidelity by assigning generated samples to the nearest training cluster centroid and measuring how often they match the requested condition, and (c) coverage by checking whether all clusters can be generated with reasonable balance and diversity. Compare against the unconditional baseline to test whether unsupervised labels enable useful controllable generation and whether classifier-free guidance improves control in low-dimensional diffusion.",
+      "Interestingness": 8,
+      "Feasibility": 9,
+      "Novelty": 7,
+      "novel": false
+    },
+    "created_at": "2026-04-28T03:29:53.992626+00:00"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "idea_name": "diffusion_models",
+    "checker": "ai_scientist_v2",
+    "num_queries": 3,
+    "avg_query_len": 17.333333333333332,
+    "repeated_query_fraction": 0.0,
+    "retrieved_titles": []
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "idea_name": "forecast_aware_storage_dispatch",
+    "checker": "ai_scientist_v1",
+    "num_queries": 1,
+    "avg_query_len": 14.0,
+    "repeated_query_fraction": 0.0,
+    "energy_terms_covered": [
+      "microgrid"
+    ],
+    "retrieved_titles": [
+      "A Coordinated Multitimescale Model Predictive Control for Output Power Smoothing in Hybrid Microgrid Incorporating Hydrogen Energy Storage",
+      "A Novel Model Predictive Control-Based Energy Management for Stable and Efficient Operation of Renewable Integrated DC Microgrids",
+      "Context-Aware Model Predictive Control for Microgrid Energy Management via LLMs",
+      "Dynamic power management based on Model Predictive Control and PSO for hybrid microgrid",
+      "Energy management using predictive control and Neural Networks in microgrid with hybrid storage system",
+      "Hierarchical Coordinated Control Method for Hydrogen-Electric Hybrid Energy Storage System Based on Model Predictive Control",
+      "LSTM Based Model Predictive Control Approach for Energy Management System in PV-Battery Integrated Microgrid Network",
+      "Simulation of energy management system using model predictive control in AC/DC microgrid",
+      "Smart microgrid management based on predictive control and demand forecasting",
+      "Three-Stage Energy Management of Urban Rail Transit-Based Microgrid and EV Charging Station With V2T Technology"
+    ]
+  }
+]

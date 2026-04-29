@@ -1,0 +1,19 @@
+[
+  {
+    "idea_name": "self_conditioned_mode_control",
+    "checker": "ai_scientist_v1",
+    "num_queries": 1,
+    "avg_query_len": 9.0,
+    "repeated_query_fraction": 0.0,
+    "retrieved_titles": [
+      "Advances in artificial intelligence : 19th Conference of the Canadian Society for Computational Studies of Intelligence, Canadian AI 2006, Québec City, Québec, Canada, June 7-9, 2006 : proceedings",
+      "Behavior Generation with Latent Actions",
+      "Diffusion Models With Implicit Conditions Driven by Latent Shifts",
+      "Machine learning approaches for diabetic foot wound segmentation: generative models vs. CNNs vs. K-means",
+      "Pattern recognition and machine intelligence : third International Conference, PReMI 2009, New Delhi, India, December 16-20, 2009 : proceedings",
+      "Structural, Syntactic and Statistical Pattern Recognition: Joint IAPR International Workshops, SSPR 2006 and SPR 2006, Hong Kong, China, August 17-19, 2006: proceedings",
+      "Structural, Syntactic, and Statistical Pattern Recognition, Joint IAPR International Workshops, SSPR 2006 and SPR 2006, Hong Kong, China, August 17-19, 2006, Proceedings",
+      "Why Are Conditional Generative Models Better Than Unconditional Ones?"
+    ]
+  }
+]

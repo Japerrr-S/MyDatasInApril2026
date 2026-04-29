@@ -1,0 +1,17 @@
+{
+  "run_id": "c19d2019-89f3-4dbc-92d6-b0ff0f9078f9",
+  "ai_scientist_v1_path": "../AI-Scientist",
+  "ai_scientist_v2_path": "../AI-Scientist-v2",
+  "v1_experiment": "2d_diffusion",
+  "v2_workshop_file": "../diffusion-novelty-platform/workshops/diffusion_models.md",
+  "model": "gpt-5.4",
+  "openai_base_url": "https://www.autodl.art/api/v1",
+  "openai_timeout": 60,
+  "openai_max_retries": 0,
+  "s2_request_interval": 12,
+  "s2_429_cooldown": 60,
+  "max_ideas": 1,
+  "num_reflections": 4,
+  "max_novelty_rounds": 3,
+  "semantic_scholar_limit": 10
+}

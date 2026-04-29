@@ -1,0 +1,36 @@
+[
+  {
+    "run_id": "98623a83-5ce2-47f9-b6e0-6127da096aa0",
+    "idea_name": "forecast_aware_storage_dispatch",
+    "checker": "ai_scientist_v1",
+    "is_novel": false,
+    "rationale": "Captured from AI-Scientist v1 ideas.json.",
+    "raw": {
+      "Name": "forecast_aware_storage_dispatch",
+      "Title": "Forecast-Aware Battery Dispatch for Renewable Smoothing",
+      "Experiment": "Build a simplified battery dispatch simulation with renewable generation and load uncertainty. Compare a myopic rule-based dispatch policy against a forecast-aware optimization policy using metrics such as renewable curtailment, peak load reduction, battery cycling, and unmet demand.",
+      "Interestingness": 6,
+      "Feasibility": 8,
+      "Novelty": 3,
+      "novel": false
+    },
+    "created_at": "2026-04-28T03:06:45.477048+00:00"
+  },
+  {
+    "run_id": "98623a83-5ce2-47f9-b6e0-6127da096aa0",
+    "idea_name": "adaptive_peak_shaving_dispatch",
+    "checker": "ai_scientist_v1",
+    "is_novel": false,
+    "rationale": "Captured from AI-Scientist v1 ideas.json.",
+    "raw": {
+      "Name": "adaptive_peak_shaving_dispatch",
+      "Title": "Adaptive Peak-Shaving Battery Dispatch for Feeder Constraint Management",
+      "Experiment": "Extend the scaffold with two dispatch policies beyond the existing surplus-charging renewable-self-consumption baseline. (1) A fixed-cap peak-shaving controller that discharges the battery whenever net load would push grid import above a chosen threshold. (2) An adaptive peak-shaving controller that uses observed morning and midday net load to set an import target for a predefined evening peak window and reserves battery state of charge for those hours. Keep the setup lightweight by using the existing synthetic daily profiles, but add scenario sweeps over battery capacity, charge/discharge power, renewable scaling, and evening-peak strength. For each policy, simulate many seeds and compare power-system metrics including peak_grid_import, hours above a notional feeder limit, renewable curtailment, and battery_cycles. The main research question is whether adaptive state-of-charge reservation can reduce feeder peak stress more reliably than surplus-charging or fixed-threshold dispatch, while avoiding excessive curtailment or storage wear.",
+      "Interestingness": 8,
+      "Feasibility": 9,
+      "Novelty": 6,
+      "novel": false
+    },
+    "created_at": "2026-04-28T03:06:45.477048+00:00"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "idea_name": "learning_rate_schedule",
+    "checker": "ai_scientist_v1",
+    "num_queries": 1,
+    "avg_query_len": 8.0,
+    "repeated_query_fraction": 0.0,
+    "retrieved_titles": [
+      "An Empirical Study of Nonconvex Optimization in Deep Learning",
+      "An Overview of Diffusion Models: Applications, Guided Generation, Statistical Rates and Optimization",
+      "Deep Learning-Based Neural Network Modeling for Economic Performance Prediction: An Empirical Study on Iraq",
+      "Hop, skip, jump to Convergence: Dynamics of Learning Rate Transitions for Improved Training of Large Language Models",
+      "Learning to Schedule in Diffusion Probabilistic Models",
+      "Lost in Latent Space: An Empirical Study of Latent Diffusion Models for Physics Emulation",
+      "Optimization Benchmark for Diffusion Models on Dynamical Systems",
+      "Optimizing EfficientNetB0 for Eye Disease Classification: An Empirical Study on Learning Rate and Augmentation Intensity",
+      "Straight to Zero: Why Linearly Decaying the Learning Rate to Zero Works Best for LLMs",
+      "Trade-offs between Stability and Diversity in LLM Sentiment Alignment: An Empirical Study on Learning Rate Schedules and KL Coefficients"
+    ]
+  },
+  {
+    "idea_name": "cluster_conditioned_diffusion",
+    "checker": "ai_scientist_v1",
+    "num_queries": 2,
+    "avg_query_len": 8.5,
+    "repeated_query_fraction": 0.0,
+    "retrieved_titles": [
+      "Affinity Learning Via Self-Supervised Diffusion for Spectral Clustering",
+      "Causal Inference-Based Self-Supervised Cross-Domain Fundus Image Segmentation",
+      "DDGC: A diffusion-based approach for dynamic graph clustering",
+      "DELULU: Discriminative Embedding Learning Using Latent Units for Speaker-Aware Self-Supervised Speech Foundational Model",
+      "Diff-SySC: An Approach Using Diffusion Models for Semi-Supervised Image Classification",
+      "DiffCorr: Conditional Diffusion Model with Reliable Pseudo-Label Guidance for Unsupervised Point Cloud Shape Correspondence",
+      "Label-free Motion-Conditioned Diffusion Model for Cardiac Ultrasound Synthesis",
+      "Latent Diffusion-Enhanced Virtual Try-On via Optimized Pseudo-Label Generation",
+      "MCDDPM: Multichannel Conditional Denoising Diffusion Model for Unsupervised Anomaly Detection in Brain MRI",
+      "Model Inversion Attacks Through Target-Specific Conditional Diffusion Models",
+      "Noise Optimized Conditional Diffusion for Domain Adaptation",
+      "Robust Representation Learning with Reliable Pseudo-labels Generation via Self-Adaptive Optimal Transport for Short Text Clustering",
+      "Semi-Supervised Clustering Framework for Fine-grained Scene Graph Generation",
+      "Semi-Supervised Defect Detection via Conditional Diffusion and CLIP-Guided Noise Filtering",
+      "Speaker-IPL: Unsupervised Learning of Speaker Characteristics with i-Vector based Pseudo-Labels",
+      "Spectral Clustering Augmentation Pseudo-Label Conditional Generation Adversarial Imputation Networks for Multivariate Time-Series Missing Data",
+      "Unsupervised Seismic Acoustic Impedance Inversion Based on Generative Diffusion Model",
+      "Unsupervised Time Series Anomaly Detection Based on Conditional Variational Auto-Encoder",
+      "Weakly supervised colorectal gland segmentation through self-supervised learning and attention-based pseudo-labeling",
+      "[Cross modal translation of magnetic resonance imaging and computed tomography images based on diffusion generative adversarial networks]."
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "idea_name": "learning_rate_schedule",
+    "checker": "ai_scientist_v1",
+    "round_index": 1,
+    "query": "diffusion models learning rate schedule optimization empirical study",
+    "backup_source": "openalex",
+    "num_results": 5,
+    "titles": [
+      "Non-Parametric Estimation of a Multivariate Probability Density",
+      "Older Adults' Reasons for Using Technology while Aging in Place",
+      "Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science",
+      "Image Super-Resolution Via Iterative Refinement",
+      "Data-driven prediction of battery cycle life before capacity degradation"
+    ],
+    "error": null
+  },
+  {
+    "idea_name": "learning_rate_schedule",
+    "checker": "ai_scientist_v1",
+    "round_index": 1,
+    "query": "diffusion models learning rate schedule optimization empirical study",
+    "backup_source": "arxiv",
+    "num_results": 5,
+    "titles": [
+      "Optimal Linear Decay Learning Rate Schedules and Further Refinements",
+      "Learning Rate Schedules in the Presence of Distribution Shift",
+      "A Closer Look at Deep Learning Heuristics: Learning rate restarts, Warmup and Distillation",
+      "Conditional Variational Diffusion Models",
+      "The Surprising Agreement Between Convex Optimization Theory and Learning-Rate Scheduling for Large Model Training"
+    ],
+    "error": null
+  },
+  {
+    "idea_name": "cluster_conditioned_diffusion",
+    "checker": "ai_scientist_v1",
+    "round_index": 1,
+    "query": "diffusion model pseudo-label clustering conditional generation self-supervised",
+    "backup_source": "openalex",
+    "num_results": 5,
+    "titles": [
+      "The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS)",
+      "Text Data Augmentation for Deep Learning",
+      "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+      "Recent advances and applications of machine learning in solid-state materials science",
+      "Large language models generate functional protein sequences across diverse families"
+    ],
+    "error": null
+  },
+  {
+    "idea_name": "cluster_conditioned_diffusion",
+    "checker": "ai_scientist_v1",
+    "round_index": 1,
+    "query": "diffusion model pseudo-label clustering conditional generation self-supervised",
+    "backup_source": "arxiv",
+    "num_results": 5,
+    "titles": [
+      "Self-Supervised Learning for Large-Scale Unsupervised Image Clustering",
+      "LapDDPM: A Conditional Graph Diffusion Model for scRNA-seq Generation with Spectral Adversarial Perturbations",
+      "Text-to-image Diffusion Models in Generative AI: A Survey",
+      "SL3D: Self-supervised-Self-labeled 3D Recognition",
+      "Self-Supervised Image Captioning with CLIP"
+    ],
+    "error": null
+  },
+  {
+    "idea_name": "cluster_conditioned_diffusion",
+    "checker": "ai_scientist_v1",
+    "round_index": 2,
+    "query": "unsupervised conditional diffusion clustering pseudo labels generative model",
+    "backup_source": "openalex",
+    "num_results": 5,
+    "titles": [
+      "The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS)",
+      "Text Data Augmentation for Deep Learning",
+      "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+      "Recent advances and applications of machine learning in solid-state materials science",
+      "Single-cell RNA-seq denoising using a deep count autoencoder"
+    ],
+    "error": null
+  },
+  {
+    "idea_name": "cluster_conditioned_diffusion",
+    "checker": "ai_scientist_v1",
+    "round_index": 2,
+    "query": "unsupervised conditional diffusion clustering pseudo labels generative model",
+    "backup_source": "arxiv",
+    "num_results": 5,
+    "titles": [
+      "Refining Pseudo Labels with Clustering Consensus over Generations for Unsupervised Object Re-identification",
+      "Unsupervised learning of anomalous diffusion data",
+      "LapDDPM: A Conditional Graph Diffusion Model for scRNA-seq Generation with Spectral Adversarial Perturbations",
+      "Generative Pseudo-label Refinement for Unsupervised Domain Adaptation",
+      "LUMI: Unsupervised Intent Clustering with Multiple Pseudo-Labels"
+    ],
+    "error": null
+  }
+]

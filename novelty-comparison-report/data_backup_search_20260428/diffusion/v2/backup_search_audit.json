@@ -1,0 +1,89 @@
+[
+  {
+    "idea_name": "diffusion_models",
+    "checker": "ai_scientist_v2",
+    "round_index": 1,
+    "query": "diffusion models denoising score matching sampling efficiency guidance mode coverage low-dimensional diffusion consistency models fast samplers mixture of experts denoiser GAN diffusion hybrids classifier-free guidance uncertainty training objectives",
+    "backup_source": "openalex",
+    "num_results": 0,
+    "titles": [],
+    "error": null
+  },
+  {
+    "idea_name": "diffusion_models",
+    "checker": "ai_scientist_v2",
+    "round_index": 1,
+    "query": "diffusion models denoising score matching sampling efficiency guidance mode coverage low-dimensional diffusion consistency models fast samplers mixture of experts denoiser GAN diffusion hybrids classifier-free guidance uncertainty training objectives",
+    "backup_source": "arxiv",
+    "num_results": 5,
+    "titles": [
+      "Simple Guidance Mechanisms for Discrete Diffusion Models",
+      "Bridging the Gap: Addressing Discrepancies in Diffusion Model Training for Classifier-Free Guidance",
+      "Diffusion-GAN: Training GANs with Diffusion",
+      "GeneOH Diffusion: Towards Generalizable Hand-Object Interaction Denoising via Denoising Diffusion",
+      "Improving Sample Quality of Diffusion Models Using Self-Attention Guidance"
+    ],
+    "error": null
+  },
+  {
+    "idea_name": "diffusion_models",
+    "checker": "ai_scientist_v2",
+    "round_index": 2,
+    "query": "diffusion model guidance mode collapse diversity classifier-free guidance oversaturation sampling diversity fast samplers related work",
+    "backup_source": "openalex",
+    "num_results": 2,
+    "titles": [
+      "Text to Image Generation and Editing: A Survey",
+      "Improving Diffusion Generalization with Weak-to-Strong Segmented Guidance"
+    ],
+    "error": null
+  },
+  {
+    "idea_name": "diffusion_models",
+    "checker": "ai_scientist_v2",
+    "round_index": 2,
+    "query": "diffusion model guidance mode collapse diversity classifier-free guidance oversaturation sampling diversity fast samplers related work",
+    "backup_source": "arxiv",
+    "num_results": 5,
+    "titles": [
+      "Simple Guidance Mechanisms for Discrete Diffusion Models",
+      "Improving Sample Quality of Diffusion Models Using Self-Attention Guidance",
+      "Token Perturbation Guidance for Diffusion Models",
+      "Rethinking Oversaturation in Classifier-Free Guidance via Low Frequency",
+      "Self-Rectifying Diffusion Sampling with Perturbed-Attention Guidance"
+    ],
+    "error": null
+  },
+  {
+    "idea_name": "diffusion_models",
+    "checker": "ai_scientist_v2",
+    "round_index": 3,
+    "query": "classifier-free guidance diversity diffusion models truncation tradeoff likelihood coverage score-based generative models",
+    "backup_source": "openalex",
+    "num_results": 5,
+    "titles": [
+      "A Survey on Deep Visual Place Recognition",
+      "Modelling urban-scale occupant behaviour, mobility, and energy in buildings: A survey",
+      "Diffusion Models, Image Super-Resolution And Everything: A Survey",
+      "Image Synthesis under Limited Data: A Survey and Taxonomy",
+      "AntiBARTy Diffusion for Property Guided Antibody Design"
+    ],
+    "error": null
+  },
+  {
+    "idea_name": "diffusion_models",
+    "checker": "ai_scientist_v2",
+    "round_index": 3,
+    "query": "classifier-free guidance diversity diffusion models truncation tradeoff likelihood coverage score-based generative models",
+    "backup_source": "arxiv",
+    "num_results": 5,
+    "titles": [
+      "Classifier-Free Diffusion Guidance",
+      "Pre to Post-Treatment Glioblastoma MRI Prediction using a Latent Diffusion Model",
+      "Simple Guidance Mechanisms for Discrete Diffusion Models",
+      "Bridging the Gap: Addressing Discrepancies in Diffusion Model Training for Classifier-Free Guidance",
+      "Improving Sample Quality of Diffusion Models Using Self-Attention Guidance"
+    ],
+    "error": null
+  }
+]

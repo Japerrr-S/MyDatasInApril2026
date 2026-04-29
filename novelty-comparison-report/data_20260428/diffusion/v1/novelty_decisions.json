@@ -1,0 +1,36 @@
+[
+  {
+    "run_id": "04858bc7-1f26-4acb-9eb7-f30cc0ca75e4",
+    "idea_name": "learning_rate_schedule",
+    "checker": "ai_scientist_v1",
+    "is_novel": false,
+    "rationale": "Captured from AI-Scientist v1 ideas.json. Patch v1 logging to capture queries.",
+    "raw": {
+      "Name": "learning_rate_schedule",
+      "Title": "Adaptive Learning Rate Schedules: Comparing different learning rate schedules for diffusion models.",
+      "Experiment": "In this experiment, we compare the performance of different learning rate schedules on diffusion model performance. We use the final estimated KL as the evaluation metric.",
+      "Interestingness": 4,
+      "Feasibility": 10,
+      "Novelty": 3,
+      "novel": false
+    },
+    "created_at": "2026-04-28T03:00:18.960471+00:00"
+  },
+  {
+    "run_id": "04858bc7-1f26-4acb-9eb7-f30cc0ca75e4",
+    "idea_name": "cluster_conditioned_diffusion",
+    "checker": "ai_scientist_v1",
+    "is_novel": true,
+    "rationale": "Captured from AI-Scientist v1 ideas.json. Patch v1 logging to capture queries.",
+    "raw": {
+      "Name": "cluster_conditioned_diffusion",
+      "Title": "Controllable Low-Dimensional Diffusion with Self-Supervised Cluster Conditioning",
+      "Experiment": "Add self-supervised discrete conditions to the DDPM by clustering each 2D dataset into a small number of groups directly in data space using a simple in-code k-means implementation. Run the experiment for a small fixed set of cluster counts, e.g. k in {2, 4, 8}, to study how pseudo-mode granularity affects controllability and sample quality. Extend the dataset to return both point and cluster ID. Modify MLPDenoiser to include a learned label embedding concatenated with the existing x1/x2/time embeddings, plus a null embedding for condition dropout during training so classifier-free guidance can be used at sampling time. At inference, sample with different target cluster IDs and guidance strengths by combining conditional and null predictions. Evaluate (1) overall KL divergence against the full dataset, (2) conditional KL between samples generated for cluster c and the real data assigned to cluster c, and (3) pseudo-condition adherence, measured as the fraction of generated samples mapped back to the requested cluster by the same clustering rule. Compare against the unconditional baseline to test whether self-supervised conditioning enables mode-biased generation without labels and how this depends on cluster granularity.",
+      "Interestingness": 8,
+      "Feasibility": 9,
+      "Novelty": 7,
+      "novel": true
+    },
+    "created_at": "2026-04-28T03:00:18.960471+00:00"
+  }
+]

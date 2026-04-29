@@ -1,0 +1,34 @@
+[
+  {
+    "idea_name": "adaptive_peak_shaving_dispatch",
+    "checker": "ai_scientist_v1",
+    "round_index": 1,
+    "query": "battery peak shaving feeder constraint management adaptive state of charge reservation evening peak dispatch",
+    "backup_source": "openalex",
+    "num_results": 5,
+    "titles": [
+      "Electric Vehicle Charging Infrastructure: Impacts and Future Challenges of Photovoltaic Integration with Examples from a Tunisian Case",
+      "Multiobjective Optimal Dispatching Method of Generalized Power Active Distribution Network Based on Game Theory",
+      "Algorithmes et architectures multi-agents pour la gestion de l'énergie dans les réseaux électriques intelligents",
+      "Local flexibility markets in Europe: A critical review of market designs, operational maturity and stakeholder perspectives",
+      "Study on a Dual-Dimensional Compensation Mechanism and Bi-Level Optimization Approach for Real-Time Electric Vehicle Demand Response in Unified Build-and-Operate Communities"
+    ],
+    "error": null
+  },
+  {
+    "idea_name": "adaptive_peak_shaving_dispatch",
+    "checker": "ai_scientist_v1",
+    "round_index": 1,
+    "query": "battery peak shaving feeder constraint management adaptive state of charge reservation evening peak dispatch",
+    "backup_source": "arxiv",
+    "num_results": 5,
+    "titles": [
+      "Optimal Combination of Frequency Control and Peak Shaving with Battery Storage Systems",
+      "Peak state transfer in continuous quantum walks",
+      "Nonparametric Kernel Regression for Coordinated Energy Storage Peak Shaving with Stacked Services",
+      "Efficient Power Flow Management and Peak Shaving in a Microgrid-PV System",
+      "A Stacked Autoencoder Application for Residential Load Curve Forecast and Peak Shaving"
+    ],
+    "error": null
+  }
+]

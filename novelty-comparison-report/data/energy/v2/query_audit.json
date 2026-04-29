@@ -1,0 +1,16 @@
+[
+  {
+    "idea_name": "energy_power_systems",
+    "checker": "ai_scientist_v2",
+    "num_queries": 1,
+    "avg_query_len": 16.0,
+    "repeated_query_fraction": 0.0,
+    "energy_terms_covered": [
+      "microgrid"
+    ],
+    "retrieved_titles": [
+      "A Parallel Fast-Track Service Restoration Strategy Relying on Sectionalized Interdependent Power-Gas Distribution Systems",
+      "Coordinated Repair Crew Dispatch Problem for Cyber–Physical Distribution System"
+    ]
+  }
+]

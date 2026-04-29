@@ -1,0 +1,19 @@
+[
+  {
+    "idea_name": "energy_power_systems",
+    "checker": "ai_scientist_v2",
+    "num_queries": 2,
+    "avg_query_len": 23.5,
+    "repeated_query_fraction": 0.0,
+    "energy_terms_covered": [
+      "demand response",
+      "electricity market",
+      "energy storage",
+      "frequency regulation",
+      "microgrid",
+      "n-1 security",
+      "optimal power flow"
+    ],
+    "retrieved_titles": []
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "idea_name": "diversity_adaptive_guidance",
+    "title": "Diversity-Adaptive Guidance for Diffusion Models: Conditioning Strength from Online Uncertainty and Repulsion",
+    "original_v2_status": "novel=True (provisional)",
+    "posthoc_novelty_status": "novelty_not_established",
+    "decision": "needs_human_review_before_accepting_novelty",
+    "reasoning": [
+      "Original Semantic Scholar retrieval returned zero titles mainly because of 429 failures.",
+      "Backup arXiv retrieval returned multiple related guidance and classifier-free guidance titles.",
+      "The idea combines adaptive classifier-free guidance, uncertainty from conditional-unconditional discrepancy, and batch-level repulsion. The title-level evidence does not prove exact duplication, but it clearly shows an existing related literature space.",
+      "Therefore the platform should not accept the original v2 provisional novel label as a strong novelty decision."
+    ],
+    "key_related_candidates": [
+      "Classifier-Free Diffusion Guidance",
+      "Rethinking Oversaturation in Classifier-Free Guidance via Low Frequency",
+      "Bridging the Gap: Addressing Discrepancies in Diffusion Model Training for Classifier-Free Guidance",
+      "Improving Sample Quality of Diffusion Models Using Self-Attention Guidance",
+      "Token Perturbation Guidance for Diffusion Models",
+      "Simple Guidance Mechanisms for Discrete Diffusion Models"
+    ],
+    "evidence_sources": [
+      "data_20260428/diffusion/v2/query_audit.json",
+      "data_backup_search_20260428/diffusion/v2/backup_search_audit.json"
+    ],
+    "recommended_next_step": "Read abstracts/full papers for adaptive guidance, CFG oversaturation, guidance perturbation, and self-attention guidance before assigning novel=True."
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "run_id": "64a6d049-c3d3-41ae-8d77-083fe5cd4722",
+    "idea_name": "learning_rate_schedule",
+    "checker": "ai_scientist_v1",
+    "is_novel": false,
+    "rationale": "Captured from AI-Scientist v1 ideas.json. Patch v1 logging to capture queries.",
+    "raw": {
+      "Name": "learning_rate_schedule",
+      "Title": "Adaptive Learning Rate Schedules: Comparing different learning rate schedules for diffusion models.",
+      "Experiment": "In this experiment, we compare the performance of different learning rate schedules on diffusion model performance. We use the final estimated KL as the evaluation metric.",
+      "Interestingness": 4,
+      "Feasibility": 10,
+      "Novelty": 3,
+      "novel": false
+    },
+    "created_at": "2026-04-27T09:13:54.716353+00:00"
+  },
+  {
+    "run_id": "64a6d049-c3d3-41ae-8d77-083fe5cd4722",
+    "idea_name": "self_conditioned_mode_control",
+    "checker": "ai_scientist_v1",
+    "is_novel": false,
+    "rationale": "Captured from AI-Scientist v1 ideas.json. Patch v1 logging to capture queries.",
+    "raw": {
+      "Name": "self_conditioned_mode_control",
+      "Title": "Discovering Controllable Modes in Low-Dimensional Diffusion via Self-Supervised Pseudo-Labels",
+      "Experiment": "Add a preprocessing step that assigns pseudo-labels to each dataset point using a simple in-code k-means clustering on the 2D coordinates. Use a small ablation over the number of clusters, e.g. K in {2,4}, to test how granularity affects controllability. Modify MLPDenoiser to include a label embedding nn.Embedding(K+1, embedding_dim), where the extra index is a null condition for classifier-free guidance. During training, concatenate the label embedding with the existing x1, x2, and t embeddings, and randomly replace the true pseudo-label with the null label with probability 0.1 to 0.2. Train with the same DDPM noise-prediction loss. During sampling, generate unconditional samples and conditional samples for each pseudo-mode, with an optional small sweep of guidance weights such as {0,1,2,4}. Evaluate three main metrics: (1) global KL divergence between all generated samples and real data, (2) conditional KL divergence between samples generated for pseudo-mode k and the subset of real data assigned to pseudo-mode k, and (3) condition-consistency accuracy by assigning each generated sample to the nearest training k-means centroid and checking whether it matches the requested mode. Compare against the original unconditional DDPM to measure the tradeoff between controllability and overall sample quality.",
+      "Interestingness": 8,
+      "Feasibility": 9,
+      "Novelty": 7,
+      "novel": false
+    },
+    "created_at": "2026-04-27T09:13:54.716353+00:00"
+  }
+]

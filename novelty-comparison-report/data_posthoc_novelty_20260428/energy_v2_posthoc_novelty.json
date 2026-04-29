@@ -1,0 +1,28 @@
+[
+  {
+    "idea_name": "conformal_opf_reserve_activation",
+    "title": "Conformal Reliability Envelopes for Secure OPF Under Forecast Shift",
+    "original_v2_status": "novel=True (provisional)",
+    "posthoc_novelty_status": "novelty_not_established",
+    "decision": "needs_human_review_before_accepting_novelty",
+    "reasoning": [
+      "Original Semantic Scholar retrieval produced only limited evidence and was partially affected by 429 failures.",
+      "Backup arXiv/OpenAlex retrieval returned OPF, renewable uncertainty, demand response, smart grid, and resilience candidates.",
+      "The title-level evidence does not show an exact duplicate of conformal reliability envelopes embedded into security-constrained OPF, but it does show that adjacent OPF-under-uncertainty and renewable/demand-response literature exists.",
+      "Because the proposal's novelty depends on the specific combination of conformal prediction, network-aware uncertainty sets, and secure OPF/reserve activation, title-level backup evidence is insufficient for a final novelty=True decision."
+    ],
+    "key_related_candidates": [
+      "AC optimal power flow in the presence of renewable sources and uncertain loads",
+      "hynet: An Optimal Power Flow Framework for Hybrid AC/DC Power Systems",
+      "Online Algorithm for Demand Response with Inelastic Demands and Apparent Power Constraint",
+      "Data-driven Coordination of Distributed Energy Resources for Active Power Provision",
+      "Microgrids: A review, outstanding issues and future trends",
+      "A Survey on State Estimation Techniques and Challenges in Smart Distribution Systems"
+    ],
+    "evidence_sources": [
+      "data_20260428/energy/v2/query_audit.json",
+      "data_backup_search_20260428/energy/v2/backup_search_audit.json"
+    ],
+    "recommended_next_step": "Run a domain-specific search for conformal prediction + OPF + chance constraints + distributionally robust OPF, ideally with IEEE/OpenAlex filters and abstract-level review."
+  }
+]

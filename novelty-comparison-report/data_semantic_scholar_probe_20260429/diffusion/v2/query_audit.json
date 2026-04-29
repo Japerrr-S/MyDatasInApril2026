@@ -1,0 +1,14 @@
+[
+  {
+    "idea_name": "diffusion_models",
+    "checker": "ai_scientist_v2",
+    "num_queries": 3,
+    "avg_query_len": 14.0,
+    "repeated_query_fraction": 0.0,
+    "retrieved_titles": [
+      "Adaptive Classifier-Free Guidance via Dynamic Low-Confidence Masking",
+      "Fast and faithful: accelerating data-free knowledge distillation via confidence-aware adaptive diffusion",
+      "Navigating with Annealing Guidance Scale in Diffusion Space"
+    ]
+  }
+]

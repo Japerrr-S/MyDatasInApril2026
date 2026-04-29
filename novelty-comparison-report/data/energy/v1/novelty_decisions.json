@@ -1,0 +1,36 @@
+[
+  {
+    "run_id": "eb6817fd-7628-4a47-9037-5f35b6dde399",
+    "idea_name": "forecast_aware_storage_dispatch",
+    "checker": "ai_scientist_v1",
+    "is_novel": false,
+    "rationale": "Captured from AI-Scientist v1 ideas.json.",
+    "raw": {
+      "Name": "forecast_aware_storage_dispatch",
+      "Title": "Forecast-Aware Battery Dispatch for Renewable Smoothing",
+      "Experiment": "Build a simplified battery dispatch simulation with renewable generation and load uncertainty. Compare a myopic rule-based dispatch policy against a forecast-aware optimization policy using metrics such as renewable curtailment, peak load reduction, battery cycling, and unmet demand.",
+      "Interestingness": 6,
+      "Feasibility": 8,
+      "Novelty": 3,
+      "novel": false
+    },
+    "created_at": "2026-04-27T09:18:14.420783+00:00"
+  },
+  {
+    "run_id": "eb6817fd-7628-4a47-9037-5f35b6dde399",
+    "idea_name": "nonwires_demand_response_storage",
+    "checker": "ai_scientist_v1",
+    "is_novel": false,
+    "rationale": "Captured from AI-Scientist v1 ideas.json.",
+    "raw": {
+      "Name": "nonwires_demand_response_storage",
+      "Title": "Coordinated Deferrable Demand and Battery Dispatch for Non-Wires Peak Relief Under Import Constraints",
+      "Experiment": "Extend the scaffold by decomposing demand into inflexible load and a deferrable energy component that must be served within a fixed deadline window. Add a dispatch simulator with an explicit grid-import cap representing feeder thermal limits or local resource-adequacy constraints, while enforcing energy conservation for deferred demand. Compare (1) battery-only dispatch, (2) deferrable-demand-only shifting, and (3) coordinated battery plus deferrable-demand control. Use simple rule-based or short-horizon look-ahead policies to decide when to defer demand, recover deferred demand, charge, and discharge. Evaluate across random seeds and parameter sweeps for deferrable-load fraction, deadline window, battery size, and import-cap tightness. Report peak grid import, number of cap-violation hours avoided, renewable curtailment, battery cycling, fraction of deferrable load served within deadline, and unmet energy when flexibility is insufficient.",
+      "Interestingness": 8,
+      "Feasibility": 9,
+      "Novelty": 6,
+      "novel": false
+    },
+    "created_at": "2026-04-27T09:18:14.420783+00:00"
+  }
+]
